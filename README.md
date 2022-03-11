@@ -12,18 +12,14 @@ For example if you have GitHub URL like
 https://github.com/foo/foorepo/tree/main/demo
 ```
 
-replace it with
+To get preview, replace it with
 
 
 ```
 https://itanka9.github.io/vw/#foo/foorepo/demo
 ```
 
-A common template is:
-
-```
-https://itanka9.github.io/vw/#{user}/{repo}/{path}
-```
+(common template is `https://itanka9.github.io/vw/#{user}/{repo}/{path}`).
 
 ## Acks
 
