@@ -4,8 +4,9 @@
   "description": "",
   "main": "index.js",
   "scripts": {
+    "build": "parcel build src/index.html",
     "start": "parcel src/index.html",
-    "deploy": "node deploy.js" 
+    "deploy": "parcel build --public-url /vw/ src/index.html && node deploy.js" 
   },
   "keywords": [],
   "author": "",

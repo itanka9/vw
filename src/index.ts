@@ -49,7 +49,7 @@ fetchFile(pathSpec, 'index.html')
       const div = document.createElement('div');
       div.classList.add('file');
       div.innerHTML = `<label>${scriptName}</label>
-        <pre><code class="language-javascript">${scriptContent}</code></pre>`
+        <pre><code class="language-javascript">${esc(scriptContent)}</code></pre>`
       document.body.appendChild(div);
     }
 
